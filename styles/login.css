@@ -1,0 +1,94 @@
+* {
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.spacer {
+    background-color: #F1EFEF;
+    height: 100px;
+    margin: 10px;
+
+}
+
+.spacer h1 {
+    text-align: center;
+}
+
+.logincontainer {
+    border: 1px solid black;
+    background-image: url("../assets/pexels-breakingpic-3243.jpg");
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#loginPage {
+    background-color: #181614;
+    margin-top: 100px;
+    margin-left: 500px;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    /* This ensures it takes up the full viewport height */
+
+    width: 500px;
+    /* grid-template-rows: 100px 100px; */
+    box-shadow: 0px 0px 10px rgba(77, 61, 61, 0.568);
+
+
+}
+
+/* .myform {
+    display: grid;
+
+    grid-template-areas:
+        "a b "
+        "c c"
+
+} */
+.myform {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FAF0E6;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(36, 34, 34, 0.2);
+}
+
+/* Style form inputs */
+.myform input[type="text"],
+.myform input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #F2E8C6;
+    border-radius: 3px;
+}
+
+/* Style the button */
+.myform button {
+    width: 100%;
+    padding: 10px;
+    background-color: #EBE4D1;
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Add hover effect to the button */
+.myform button:hover {
+    background-color: #0056b3;
+}
+
+/* body {
+    background: linear-gradient(to bottom, #F1EFEF, #c55d5d);
+} */
+body {
+    background-color: #000000;
+
+}
